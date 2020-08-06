@@ -4,7 +4,7 @@ package org.chelkatrao;
 @Deprecated
 public class RecommenderImpl implements Recommender {
 
-    @InjectProperty("wisky")
+    @InjectProperty(value = "wisky")
     private String alcohol;
 
     public RecommenderImpl() {
