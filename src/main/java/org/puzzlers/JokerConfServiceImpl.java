@@ -20,15 +20,9 @@ public class JokerConfServiceImpl implements JokerConfService {
         this.conference = conference;
     }
 
-    @Audit
+//    @Audit
     public void pay() {
         System.out.println("pay ishladimi +++++++++++++++++++++++++++++++++");
-    }
-
-    @PostConstruct
-    public void setup() {
-        this.pay();
-        System.out.println("----------setup init---------");
     }
 
 }
