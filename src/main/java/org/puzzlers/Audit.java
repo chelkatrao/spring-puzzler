@@ -1,9 +1,8 @@
-package org.chelkatrao;
+package org.puzzlers;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface InjectProperty {
-    String value() default "";
+public @interface Audit {
 }
